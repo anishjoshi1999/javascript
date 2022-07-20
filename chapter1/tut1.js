@@ -10,6 +10,10 @@ const family = {
     "Father":"Balram Joshi",
     "Mother":"Padma Devi Joshi"
 }
+
+// family = "hello world";
+// Throw an error as const cannot be reassigned
+console.log(family)
 family["Number"] = 1234;
 console.log(family)
 // Try to add a new key to the const object in problem 3 were you able to do it ?
